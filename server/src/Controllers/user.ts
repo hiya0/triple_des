@@ -9,7 +9,7 @@ export class Login {
     }
 }
 
-@Controller('signup')
+/*@Controller('signup')
 export class Signup {
     @Post()
     signUp(@Body() body : signUpBody) : any {
@@ -17,4 +17,4 @@ export class Signup {
         return {email, number, password}
     }
 
-}
+}*/
